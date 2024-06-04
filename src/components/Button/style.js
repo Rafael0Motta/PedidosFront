@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Button = styled.button`
-  margin: 76px auto 30px;
+  margin: 35px auto 30px;
   display: block;
   width: 342px;
   height: 68px;
@@ -18,5 +18,16 @@ export const Button = styled.button`
     background-color: #b21a36;
   }
 
-  
+  ${(props) =>
+    props.isBack &&
+    `
+  background-color: #2c2c31;
+`}
+
+  ${(props) =>
+    props.seeRequest &&
+    `
+    margin: 0 auto 20px; 
+  background-color: #2c2c31;
+`}
 `;

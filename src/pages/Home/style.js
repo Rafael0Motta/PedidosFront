@@ -6,7 +6,7 @@ export const Image = styled.img`
 `;
 
 export const Input = styled.input`
-  background: #d3d3d3;
+  background: #474747;
   border: none;
   border-radius: 14px;
 
@@ -19,5 +19,5 @@ export const Input = styled.input`
 
   line-height: 21px;
   font-size: 18px;
-  color: #000;
+  color: #fff;
 `;
